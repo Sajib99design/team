@@ -1,0 +1,718 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
+
+/* FOR-LG-START */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/* hero area  */
+	.hero-single {
+		min-height: 500px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.hero-title h2 {
+		margin-left: 0;
+		margin-bottom: 0;
+		font-size: 46px;
+	}
+
+	.nav_items ul li a {
+		font-size: 14px;
+		padding-right: 30px;
+	}
+
+	.header_inner {
+		padding: 10px 0;
+		max-width: 789px;
+	}
+
+	/* room area  */
+	.room-area {
+		margin-bottom: 0;
+	}
+
+	.book-area {
+		margin: 40px 0;
+	}
+
+	.book-wrapper {
+		padding: 40px 30px;
+	}
+
+	.book-date a {
+		padding: 20px 20px;
+	}
+
+	.book-person .book-person-inner {
+		padding: 20px 20px;
+	}
+
+	.book-btn a {
+		font-size: 20px;
+		padding: 20px 32px;
+	}
+
+	.room-wrapper .item1 {
+		grid-row: 1 / 1;
+	}
+
+	.room-img img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	.room-item {
+		height: 300px;
+	}
+
+	/* offer  */
+	.offer-area {
+		padding: 50px 0;
+	}
+
+
+
+	.offer-title h2 {
+		font-size: 34px;
+		padding-top: 20px;
+		padding-bottom: 22px;
+	}
+
+	.offer-title h4 {
+		font-size: 24px;
+	}
+
+	.offer-title p {
+		font-size: 18px;
+	}
+
+	.offer-btn a {
+		font-size: 24px;
+	}
+
+	.offer-content {
+		margin-bottom: 36px;
+	}
+
+	.offer-price {
+		gap: 28px;
+	}
+
+	.price-dollar {
+		font-size: 26px;
+		margin-top: 22px;
+	}
+
+	.price-item {
+		padding: 20px 20px 34px;
+		border-radius: 30px;
+		box-shadow: 6px 11px 26px 0px rgba(0, 52, 101, 0.25);
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+	}
+
+	/* footer  */
+	.footer-area {
+		padding-top: 50px;
+	}
+
+	.footer-wrapper {
+		padding-bottom: 68px;
+		gap: 6%;
+	}
+
+	.footer-left h3 {
+		font-size: 32px;
+		margin-bottom: 32px;
+	}
+
+	.footer-right .footer-nav:nth-of-type(2) {
+		margin-left: 0;
+	}
+
+	.footer-right .footer-nav:nth-of-type(3) {
+		margin-left: 0;
+	}
+
+	.footer-form input[type="text"] {
+		padding: 16px 16px;
+		font-size: 18px;
+	}
+
+	.footer-form input[type="text"]::placeholder {
+		padding: 16px 16px;
+		font-size: 18px;
+	}
+
+	.footer-form input[type="submit"] {
+		padding: 16px 16px;
+		font-size: 18px;
+	}
+
+	.footer-logo {
+		margin-bottom: -2px;
+	}
+
+}
+
+/*FOR-TABLATE-START*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.sidebar-menu {
+		display: block;
+	}
+
+	.menu-btn {
+		display: block;
+		margin-right: 6%;
+	}
+
+	.nav_items {
+		display: none;
+	}
+
+	.header_inner {
+		border-radius: 0;
+		top: 0;
+		left: 0;
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+	}
+
+	/* hero area  */
+	.hero-single {
+		min-height: 500px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.hero-title h2 {
+		margin-left: 0;
+		margin-bottom: 0;
+		font-size: 46px;
+	}
+
+	.owl-theme .owl-dots .owl-dot span {
+		width: 8px;
+		height: 8px;
+	}
+
+	.owl-theme .owl-nav.disabled+.owl-dots {
+		top: -40px;
+	}
+
+	/* room area  */
+	.book-area {
+		margin: 10px 0 30px;
+	}
+
+	.book-wrapper {
+		padding: 40px 20px;
+		border-radius: 0;
+		max-width: 100%;
+	}
+
+	.book-date a {
+		padding: 16px 12px;
+		font-size: 12px;
+		background: #fff;
+		display: block;
+		text-align: center;
+	}
+
+	.book-btn a {
+		font-size: 12px;
+		padding: 21px 12px;
+		display: block;
+		background: #65AEF2;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.book-person .book-person-inner {
+		padding: 16px 12px;
+	}
+
+	.book-date img {
+		margin-right: 10px;
+	}
+
+	.book-form {
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: 1fr 1.5fr 1fr;
+		gap: 10px;
+		align-items: flex-end;
+	}
+
+	.book-title h2 {
+		font-size: 28px;
+	}
+
+	/* room area  */
+	.room-area {
+		padding: 30px 0;
+		margin-bottom: 0;
+	}
+
+	.room-wrapper {
+		padding: 0 20px;
+		gap: 20px;
+	}
+
+	.room-wrapper .item1 {
+		grid-row: 1 / 1;
+	}
+
+	.room-img img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	.room-item {
+		height: 300px;
+	}
+
+	/* .room-item.item1 img {
+		width: 100%;
+		object-fit: cover;
+		height: 38rem;
+	} */
+
+	/* offer  */
+	.offer-area {
+		padding: 30px 0;
+	}
+
+	.offer-title h2 {
+		font-size: 30px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+	.offer-title h4 {
+		font-size: 22px;
+	}
+
+	.offer-title p {
+		font-size: 16px;
+		max-width: 610px;
+	}
+
+	.offer-btn a {
+		font-size: 20px;
+	}
+
+	.offer-content {
+		margin-bottom: 36px;
+	}
+
+	.offer-price {
+		gap: 28px;
+	}
+
+	.price-dollar {
+		font-size: 20px;
+		margin-top: 22px;
+	}
+
+	.price-item {
+		padding: 12px 12px;
+		border-radius: 30px;
+		box-shadow: 6px 11px 26px 0px rgba(0, 52, 101, 0.25);
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+	}
+
+	.price-catetory h3 {
+		font-size: 20px;
+	}
+
+	.price-view img {
+		width: 14px;
+	}
+
+	/* footer  */
+	.footer-area {
+		padding-top: 50px;
+	}
+
+	.footer-wrapper {
+		padding-bottom: 68px;
+		gap: 6%;
+	}
+
+	.footer-left h3 {
+		font-size: 28px;
+		margin-bottom: 32px;
+	}
+
+	.footer-right .footer-nav:nth-of-type(2) {
+		margin-left: 0;
+	}
+
+	.footer-right .footer-nav:nth-of-type(3) {
+		margin-left: 0;
+	}
+
+	.footer-form input[type="text"] {
+		padding: 14px 16px;
+		font-size: 16px;
+	}
+
+	.footer-form input[type="text"]::placeholder {
+		padding: 14px 16px;
+		font-size: 16px;
+	}
+
+	.footer-form input[type="submit"] {
+		padding: 14px 16px;
+		font-size: 16px;
+	}
+
+	.footer-logo {
+		margin-bottom: 8px;
+	}
+
+	.footer-nav ul li a {
+		font-size: 14px;
+	}
+
+	.footer-copyright p {
+		font-size: 14px;
+		padding: 18px 20px;
+	}
+
+}
+
+/*FOR-MOBIL-START*/
+@media screen and (max-width: 767px) {
+
+	.sidebar-menu {
+		display: block;
+	}
+
+	.menu-btn {
+		display: block;
+		margin: 0%;
+	}
+
+	.nav_items {
+		display: none;
+	}
+
+	.logo img {
+		width: 60px;
+		margin: 0;
+	}
+
+	.header_inner {
+		border-radius: 0;
+		justify-content: space-between;
+		padding: 10px 20px;
+		top: 0;
+		left: 0;
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+	}
+
+	/* hero area  */
+	/* hero area  */
+	.hero-single {
+		min-height: 300px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.hero-title h2 {
+		margin: 0 0 -50px;
+		font-size: 32px;
+	}
+
+	.owl-theme .owl-dots .owl-dot span {
+		width: 8px;
+		height: 8px;
+	}
+
+	.owl-theme .owl-nav.disabled+.owl-dots {
+		top: -40px;
+	}
+
+	/* room area  */
+	.book-area {
+		margin: 0;
+		padding-top: 0px;
+		background: #E9F3F6;
+	}
+
+	.book-wrapper {
+		padding: 40px 20px;
+		border-radius: 0;
+		max-width: 100%;
+	}
+
+	.book-date a {
+		padding: 16px 12px;
+		font-size: 12px;
+		background: #fff;
+		display: block;
+		text-align: center;
+	}
+
+	.book-btn a {
+		font-size: 12px;
+		padding: 21px 12px;
+		display: block;
+		background: #65AEF2;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.book-form p {
+		text-align: center;
+	}
+
+	.book-person .book-person-inner {
+		padding: 16px 12px;
+	}
+
+	.book-date img {
+		margin-right: 10px;
+	}
+
+	.book-form {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	.book-title h2 {
+		font-size: 28px;
+	}
+
+	.room-wrapper .item1 {
+		grid-row: 1/1;
+	}
+
+	.room-item {
+		height: 300px;
+	}
+
+	.room-img img {
+		width: 100% !important;
+		object-fit: cover;
+		height: 300px;
+	}
+
+	/* room area  */
+	.room-area {
+		padding: 30px 0;
+		margin-bottom: 0;
+	}
+
+	.room-wrapper {
+		padding: 0 20px;
+		gap: 20px;
+		grid-template-columns: 1fr;
+	}
+
+
+	/* offer  */
+	.offer-area {
+		padding: 30px 0;
+		text-align: center;
+	}
+
+	.offer-title h2 {
+		font-size: 26px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+	.offer-title h4 {
+		font-size: 22px;
+	}
+
+	.offer-title p {
+		font-size: 16px;
+		max-width: 610px;
+	}
+
+	.offer-btn a {
+		font-size: 16px;
+	}
+
+	.offer-content {
+		margin-bottom: 36px;
+		display: block;
+	}
+
+	.offer-price {
+		gap: 28px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.offer-btn {
+		margin-top: 16px;
+	}
+
+	.price-dollar {
+		font-size: 20px;
+		margin-top: 22px;
+	}
+
+	.price-item {
+		padding: 12px 12px;
+		border-radius: 30px;
+		box-shadow: 6px 11px 26px 0px rgba(0, 52, 101, 0.25);
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+	}
+
+	.price-catetory h3 {
+		font-size: 20px;
+	}
+
+	.price-view img {
+		width: 14px;
+	}
+
+	.price-head img {
+		width: 100%;
+	}
+
+	.price-text {
+		justify-content: space-around;
+	}
+
+	/* footer  */
+	.footer-area {
+		padding-top: 30px;
+	}
+
+	.footer-wrapper {
+		padding-bottom: 68px;
+		gap: 6%;
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.footer-left h3 {
+		font-size: 26px;
+		margin: 35px 0 20px;
+	}
+
+	.footer-right .footer-nav:nth-of-type(2) {
+		margin-left: 0;
+	}
+
+	.footer-right .footer-nav:nth-of-type(3) {
+		margin-left: 0;
+	}
+
+	.footer-form input[type="text"] {
+		padding: 10px 16px;
+		font-size: 12px;
+		width: 70%;
+	}
+
+	.footer-form input[type="text"]::placeholder {
+		padding: 10px 16px;
+		font-size: 12px;
+		width: 70%;
+	}
+
+	.footer-form input[type="submit"] {
+		padding: 12px 16px;
+		font-size: 12px;
+		right: 15%;
+	}
+
+	.footer-logo {
+		margin-bottom: 8px;
+	}
+
+	.footer-nav ul li a {
+		font-size: 14px;
+	}
+
+	.footer-copyright p {
+		font-size: 14px;
+		padding: 18px 20px;
+	}
+
+	.footer-logo {
+		text-align: center;
+		margin-bottom: -20px;
+		padding-right: 0;
+	}
+
+	.footer-logo img {
+		max-width: 122px;
+		width: 100%;
+	}
+
+	.footer-right {
+		grid-template-columns: 1fr;
+		gap: 38px;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+	.book-wrapper {
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.book-area {
+		padding-top: 15px;
+	}
+
+	.book-form {
+		display: block;
+	}
+
+	.book-date {
+		margin-bottom: 20px;
+	}
+
+	.book-person {
+		margin-bottom: 20px;
+	}
+
+	.book-person .book-person-inner {
+		display: flex;
+		gap: 30px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.person-adult {
+		margin-right: 0;
+	}
+
+	.room-wrapper {
+		padding: 0;
+		gap: 20px;
+		grid-template-columns: 1fr;
+	}
+
+
+}
