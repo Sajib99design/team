@@ -716,6 +716,7 @@ label {
 
 
 
+
 /* dev2 area  */
 .dev2-area {
   background: red;
@@ -727,3 +728,13 @@ label {
   color: orange
 }
 /* dev2 end  */
+
+/* dev1-area start  */
+.dev1-area {
+  background: orange;
+}
+
+.dev1-area h2 {
+  font-weight: 700;
+}
+
