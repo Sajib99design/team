@@ -713,3 +713,17 @@ label {
   display: inline-block;
   text-align: center;
 }
+
+
+
+/* dev2 area  */
+.dev2-area {
+  background: red;
+  margin: 2rem 0;
+}
+
+.dev2-area h2 {
+  font-weight: 700;
+  color: orange
+}
+/* dev2 end  */
